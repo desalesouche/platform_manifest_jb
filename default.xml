@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="ShenduOS/android_build">
+  <project path="build" name="zyr3x/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -37,7 +37,7 @@
   <project path="device/google/accessory/demokit" name="ShenduOS/android_device_google_accessory_demokit" groups="device" />
 
   <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common" />
-  <project path="device/huawei/u8860" name="ShenduOS/android_device_huawei_u8860" />
+  <project path="device/huawei/u8860" name="zyr3x/android_device_huawei_u8860" />
 
   <project path="device/sample" name="ShenduOS/android_device_sample" groups="device" />
   <project path="external/aac" name="ShenduOS/android_external_aac" />
