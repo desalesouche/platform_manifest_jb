@@ -20,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="ShenduOS/android" />
+  <project path="android" name="zyr3x/platform_manifest_jb"  revision="jellybean"/>
 
   <project path="abi/cpp" name="ShenduOS/android_abi_cpp" />
   <project path="bionic" name="ShenduOS/android_bionic" />
@@ -36,20 +36,8 @@
   <project path="device/google/accessory/arduino" name="ShenduOS/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="ShenduOS/android_device_google_accessory_demokit" groups="device" />
 
-  <project path="device/huawei/c8812" name="ShenduOS/android_device_huawei_c8812" />
-  <project path="device/huawei/u8818" name="ShenduOS/android_device_huawei_u8818" />
-  <project path="device/huawei/msm7x27a-common" name="ShenduOS/android_device_huawei_msm7x27a-common" />
   <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common" />
-  <project path="device/huawei/c8812e" name="ShenduOS/android_device_huawei_c8812e" />
-  <project path="device/huawei/u8825d" name="ShenduOS/android_device_huawei_u8825d" />
   <project path="device/huawei/u8860" name="ShenduOS/android_device_huawei_u8860" />
-  <project path="device/huawei/c8860e" name="ShenduOS/android_device_huawei_c8860e" />
-  <project path="device/huawei/u8800pro" name="ShenduOS/android_device_huawei_u8800pro" />
-  <project path="device/huawei/u9200" name="ShenduOS/android_device_huawei_u9200" />
-  <project path="device/huawei/u9500" name="ShenduOS/android_device_huawei_u9500" />
-  <project path="device/lge/p970" name="ShenduOS/android_device_lge_p970" />
-  <project path="device/xiaomi/mione_plus" name="ShenduOS/android_device_xiaomi_mione-plus" />
-  <project path="device/xiaomi/msm8660-common" name="ShenduOS/android_device_xiaomi_msm8660-common" />
 
   <project path="device/sample" name="ShenduOS/android_device_sample" groups="device" />
   <project path="external/aac" name="ShenduOS/android_external_aac" />
@@ -64,7 +52,7 @@
   <project path="external/blktrace" name="ShenduOS/android_external_blktrace" />
   <project path="external/bluetooth/bluez" name="ShenduOS/android_external_bluetooth_bluez" />
   <project path="external/bluetooth/glib" name="ShenduOS/android_external_bluetooth_glib" />
-    <project path="external/bluetooth/hcidump" name="ShenduOS/android_external_bluetooth_hcidump" />
+  <project path="external/bluetooth/hcidump" name="ShenduOS/android_external_bluetooth_hcidump" />
   <project path="external/bouncycastle" name="ShenduOS/android_external_bouncycastle" />
   <project path="external/bsdiff" name="ShenduOS/android_external_bsdiff" />
   <project path="external/busybox" name="ShenduOS/android_external_busybox" />
@@ -191,7 +179,6 @@
   <project path="external/stlport" name="ShenduOS/android_external_stlport" />
   <project path="external/strace" name="ShenduOS/android_external_strace" />
   <project path="external/stressapptest" name="ShenduOS/android_external_stressapptest" />
-  <project path="external/svox" name="ShenduOS/android_external_svox" />
   <project path="external/tagsoup" name="ShenduOS/android_external_tagsoup" />
   <project path="external/tcpdump" name="ShenduOS/android_external_tcpdump" />
   <project path="external/tinyalsa" name="ShenduOS/android_external_tinyalsa" />
@@ -209,8 +196,8 @@
   <project path="external/yaffs2" name="ShenduOS/android_external_yaffs2" />
   <project path="external/zlib" name="ShenduOS/android_external_zlib" />
   <project path="external/zxing" name="ShenduOS/android_external_zxing" />
-  <project path="frameworks/av" name="ShenduOS/android_frameworks_av" />
-  <project path="frameworks/base" name="ShenduOS/android_frameworks_base" />
+  <project path="frameworks/av" name="ShenduOS/android_frameworks_av"  />
+
   <project path="frameworks/compile/libbcc" name="ShenduOS/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="ShenduOS/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/mclinker" name="ShenduOS/android_frameworks_compile_mclinker" />
@@ -221,7 +208,7 @@
   <project path="frameworks/native" name="ShenduOS/android_frameworks_native" />
   <project path="frameworks/opt/calendar" name="ShenduOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/emoji" name="ShenduOS/android_frameworks_opt_emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="ShenduOS/android_frameworks_opt_inputmethodcommon" />
+
   <project path="frameworks/opt/mailcommon" name="ShenduOS/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/vcard" name="ShenduOS/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="ShenduOS/android_frameworks_rs" />
@@ -236,7 +223,6 @@
   <project path="hardware/libhardware" name="ShenduOS/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="ShenduOS/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="ShenduOS/android_hardware_msm7k" />
-  <project path="hardware/qcom/audio" name="ShenduOS/android_hardware_qcom_audio" />
   <project path="hardware/qcom/display" name="ShenduOS/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="ShenduOS/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="ShenduOS/android_hardware_qcom_media" />
@@ -249,73 +235,6 @@
   <project path="libcore" name="ShenduOS/android_libcore" />
   <project path="libnativehelper" name="ShenduOS/android_libnativehelper" />
   <project path="ndk" name="ShenduOS/android_ndk" />
-  <project path="packages/apps/Apollo" name="ShenduOS/android_packages_apps_Apollo" />
-  <project path="packages/apps/BasicSmsReceiver" name="ShenduOS/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="ShenduOS/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Browser" name="ShenduOS/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="ShenduOS/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="ShenduOS/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="ShenduOS/android_packages_apps_Camera" />
-  <project path="packages/apps/CellBroadcastReceiver" name="ShenduOS/android_packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="ShenduOS/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/Contacts" name="ShenduOS/android_packages_apps_Contacts" />
-  <project path="packages/apps/DeskClock" name="ShenduOS/android_packages_apps_DeskClock" />
-  <project path="packages/apps/DSPManager" name="ShenduOS/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="ShenduOS/android_packages_apps_Email" />
-  <project path="packages/apps/Exchange" name="ShenduOS/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery" name="ShenduOS/android_packages_apps_Gallery" />
-  <project path="packages/apps/Gallery2" name="ShenduOS/android_packages_apps_Gallery2" />
-  <project path="packages/apps/HTMLViewer" name="ShenduOS/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/KeyChain" name="ShenduOS/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher2" name="ShenduOS/android_packages_apps_Launcher2" />
-  <project path="packages/apps/LegacyCamera" name="ShenduOS/android_packages_apps_LegacyCamera" />
-  <project path="packages/apps/Mms" name="ShenduOS/android_packages_apps_Mms" />
-  <project path="packages/apps/Music" name="ShenduOS/android_packages_apps_Music" />
-  <project path="packages/apps/MusicFX" name="ShenduOS/android_packages_apps_MusicFX" />
-  <project path="packages/apps/Nfc" name="ShenduOS/android_packages_apps_Nfc" />
-  <project path="packages/apps/PackageInstaller" name="ShenduOS/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="ShenduOS/android_packages_apps_Phone" />
-  <project path="packages/apps/Protips" name="ShenduOS/android_packages_apps_Protips" />
-  <project path="packages/apps/Provision" name="ShenduOS/android_packages_apps_Provision" />
-  <project path="packages/apps/QuickSearchBox" name="ShenduOS/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="ShenduOS/android_packages_apps_Settings" />
-  <project path="packages/apps/SoundRecorder" name="ShenduOS/android_packages_apps_SoundRecorder" />
-  <project path="packages/apps/SpareParts" name="ShenduOS/android_packages_apps_SpareParts" />
-  <project path="packages/apps/SpeechRecorder" name="ShenduOS/android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="ShenduOS/android_packages_apps_Stk" />
-  <project path="packages/apps/Tag" name="ShenduOS/android_packages_apps_Tag" />
-  <project path="packages/apps/Trebuchet" name="ShenduOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/VideoEditor" name="ShenduOS/android_packages_apps_VideoEditor" />
-  <project path="packages/apps/VoiceDialer" name="ShenduOS/android_packages_apps_VoiceDialer" />
-  <project path="packages/apps/FastInternet" name="ShenduOS/android_packages_apps_FastInternet" />
-  <project path="packages/apps/FileManager" name="ShenduOS/android_packages_apps_FileExplorer" />
-  <project path="packages/apps/Flashlight" name="ShenduOS/android_packages_apps_Flashlight" />
-  <project path="packages/apps/Notes" name="ShenduOS/android_packages_apps_Notes" />
-  <project path="packages/apps/ShenduTheme" name="ShenduOS/android_packages_apps_ShenduTheme" />
-  <project path="packages/apps/ShenduLauncher" name="ShenduOS/android_packages_apps_ShenduLauncher" />
-  <project path="packages/apps/ShenduPermission" name="ShenduOS/android_packages_apps_ShenduPermission" />
-  <project path="packages/apps/Update" name="ShenduOS/android_packages_apps_Update" />
-  <project path="packages/experimental" name="ShenduOS/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="ShenduOS/android_packages_inputmethods_LatinIME" />
-  <project path="packages/inputmethods/OpenWnn" name="ShenduOS/android_packages_inputmethods_OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="ShenduOS/android_packages_inputmethods_PinyinIME" />
-  <project path="packages/providers/ApplicationsProvider" name="ShenduOS/android_packages_providers_ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="ShenduOS/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="ShenduOS/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="ShenduOS/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/DrmProvider" name="ShenduOS/android_packages_providers_DrmProvider" />
-  <project path="packages/providers/MediaProvider" name="ShenduOS/android_packages_providers_MediaProvider" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="ShenduOS/android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="ShenduOS/android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="ShenduOS/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="ShenduOS/android_packages_wallpapers_Basic" />
-  <project path="packages/wallpapers/Galaxy4" name="ShenduOS/android_packages_wallpapers_Galaxy4" />
-  <project path="packages/wallpapers/HoloSpiral" name="ShenduOS/android_packages_wallpapers_HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" name="ShenduOS/android_packages_wallpapers_LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="ShenduOS/android_packages_wallpapers_MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="ShenduOS/android_packages_wallpapers_MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="ShenduOS/android_packages_wallpapers_NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" name="ShenduOS/android_packages_wallpapers_PhaseBeam" />
   <project path="pdk" name="ShenduOS/android_pdk" />
   <project path="prebuilt" name="ShenduOS/android_prebuilt" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="jb-dev" />
@@ -341,7 +260,6 @@
   <project path="prebuilts/tools" name="ShenduOS/android_prebuilts_tools" />
 
   <project path="sdk" name="ShenduOS/android_sdk" />
-  <project path="system/bluetooth" name="ShenduOS/android_system_bluetooth" />
   <project path="system/core" name="ShenduOS/android_system_core" />
   <project path="system/extras" name="ShenduOS/android_system_extras" />
   <project path="system/media" name="ShenduOS/android_system_media" />
@@ -349,19 +267,88 @@
   <project path="system/security" name="ShenduOS/android_system_security" />
   <project path="system/su" name="ShenduOS/android_system_su" />
   <project path="system/vold" name="ShenduOS/android_system_vold" />
-<!--
-  <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
--->
+
+<!--AOKP START-->
+   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon"  revision="jellybean"/>
+  <project path="external/svox" name="CyanogenMod/android_external_svox" revision="jellybean" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio"  revision="jellybean" />
+  <project path="system/bluetooth" name="AOKP/system_bluetooth" revision="jb" />
   <project path="vendor/cm" name="ShenduOS/android_vendor_cm" />
+  <project path="vendor/aokp" name="AOKP/vendor_aokp"  revision="jb" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" revision="jb" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" revision="jb" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" revision="jb" />
+  <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera"  revision="jb" />
+  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" revision="jb" />
+  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock"  revision="jb" />
+  <project path="packages/apps/Exchange" name="AOKP/packages_apps_Exchange" revision="jb" />
+  <project path="packages/apps/Gallery2" name="AOKP/packages_apps_Gallery2"  revision="jb" />
+  <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" revision="jb" />
+  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone"  revision="jb" />
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl"  revision="jb" />
+  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings"  revision="jb" />
+  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider"  revision="jb" />
+  <project path="packages/providers/MediaProvider" name="AOKP/packages_providers_MediaProvider"  revision="jb" />
+  <project path="packages/providers/TelephonyProvider" name="AOKP/packages_providers_TelephonyProvider" revision="jb" />
+  <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" revision="jellybean" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser"  revision="jellybean" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" revision="jellybean"  />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" revision="jellybean"  />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" revision="jellybean" />
+  <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver"  revision="jellybean"  />
+  <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller"  revision="jellybean" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager"  revision="jellybean" />
+  <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater"  revision="jellybean" />
+  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers"  revision="jellybean" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager"  revision="jellybean" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email"  revision="jellybean" />
+  <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery"  revision="jellybean" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer"  revision="jellybean" />
+  <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain"  revision="jellybean" />
+  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2"  revision="jellybean" />
+  <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera"  revision="jellybean" />
+  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music"  revision="jellybean" />
+  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX"  revision="jellybean" />
+  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc"  revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller"  revision="jellybean" />
+  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips"  revision="jellybean" />
+  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" revision="jellybean"  />
+  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" revision="jellybean"  />
+  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts"  revision="jellybean"  />
+  <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder"  revision="jellybean" />
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk"  revision="jellybean"  />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser"  revision="jellybean"  />
+  <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag"  revision="jellybean"  />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
+  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor"  revision="jellybean" />
+  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer"  revision="jellybean" />
+  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental"  revision="jellybean" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME"  revision="jellybean" />
+  <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn"  revision="jellybean"  />
+  <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
+  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider"  revision="jellybean"  />
+  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider"  revision="jellybean"  />
+  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider"  revision="jellybean"  />
+  <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider"  revision="jellybean" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" revision="jellybean"  />
+  <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider"  revision="jellybean"  />
+  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic"  revision="jellybean"  />
+  <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4"  revision="jellybean" />
+  <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral"  revision="jellybean" />
+  <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker"  revision="jellybean" />
+  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke"  revision="jellybean" />
+  <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization"  revision="jellybean" />
+  <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField"  revision="jellybean" />
+  <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam"  revision="jellybean" />
+ 
+  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8"  revision="jellybean" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser"  revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes"  revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager"  revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes"  revision="jellybean"  />
 
+  <!--AOKP END-->
   <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" />
-  <project path="vendor/lge" name="ShenduOS/android_vendor_lge" />
-  <project path="vendor/xiaomi" name="ShenduOS/android_vendor_xiaomi" />
 
-  <project path="vendor/qcom/opensource/v8" name="ShenduOS/android_vendor_qcom_opensource_v8" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="ShenduOS/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="ShenduOS/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="ShenduOS/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="ShenduOS/android_vendor_tmobile_products_themes" />
 </manifest>
