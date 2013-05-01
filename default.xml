@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="zyr3x/android_build">
+  <project path="build" name="AOKP/build" revision="jb" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -196,8 +196,6 @@
   <project path="external/yaffs2" name="ShenduOS/android_external_yaffs2" />
   <project path="external/zlib" name="ShenduOS/android_external_zlib" />
   <project path="external/zxing" name="ShenduOS/android_external_zxing" />
-  <project path="frameworks/av" name="ShenduOS/android_frameworks_av"  />
-
   <project path="frameworks/compile/libbcc" name="ShenduOS/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="ShenduOS/android_frameworks_compile_linkloader" />
   <project path="frameworks/compile/mclinker" name="ShenduOS/android_frameworks_compile_mclinker" />
@@ -205,10 +203,8 @@
   <project path="frameworks/ex" name="ShenduOS/android_frameworks_ex" />
   <project path="frameworks/mff" name="ShenduOS/android_frameworks_mff" />
   <project path="frameworks/ml" name="ShenduOS/android_frameworks_ml" />
-  <project path="frameworks/native" name="ShenduOS/android_frameworks_native" />
   <project path="frameworks/opt/calendar" name="ShenduOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/emoji" name="ShenduOS/android_frameworks_opt_emoji" />
-
   <project path="frameworks/opt/mailcommon" name="ShenduOS/android_frameworks_opt_mailcommon" />
   <project path="frameworks/opt/vcard" name="ShenduOS/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="ShenduOS/android_frameworks_rs" />
@@ -222,10 +218,7 @@
   <project path="hardware/invensense" name="ShenduOS/android_hardware_invensense" />
   <project path="hardware/libhardware" name="ShenduOS/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="ShenduOS/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="ShenduOS/android_hardware_msm7k" />
-  <project path="hardware/qcom/display" name="ShenduOS/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="ShenduOS/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="ShenduOS/android_hardware_qcom_media" />
   <project path="hardware/ril" name="ShenduOS/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="ShenduOS/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="ShenduOS/android_hardware_ti_omap4xxx" />
@@ -347,7 +340,12 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes"  revision="jellybean" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager"  revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes"  revision="jellybean"  />
-
+  
+  <project path="hardware/msm7k" name="Evervolv/android_hardware_msm7k"  revision="jellybean-4.1.2"/>
+  <project path="hardware/qcom/display" name="Evervolv/android_hardware_qcom_display" revision="jellybean-4.1.2" />
+  <project path="hardware/qcom/media" name="Evervolv/android_hardware_qcom_media"  revision="jellybean-4.1.2"/>
+  <project path="frameworks/av" name="Evervolv/android_frameworks_av"  revision="jellybean-4.1.2"/>
+  <project path="frameworks/native" name="Evervolv/android_frameworks_native" revision="jellybean-4.1.2"/>
   <!--AOKP END-->
   <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" />
 
