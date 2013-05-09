@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="AOKP/frameworks_base" />
-  <project path="local_manifest" name="zyr3x/platform_manifest_jb"  revision="jb-u8860-local"/>
-  <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common"  revision="jellybean" />
-  <project path="device/huawei/u8860" name="zyr3x/android_device_huawei_u8860"  />
-  <project path="frameworks/base" name="zyr3x/frameworks_base" revision="jb" />  
-  <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" revision="jellybean"/>
+  <project path="local_manifest" name="zyr3x/platform_manifest_jb"  remote="aokp"   revision="jb-u8860-local"/>
+  <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common"  remote="aokp"  revision="jellybean" />
+  <project path="device/huawei/u8860" name="zyr3x/android_device_huawei_u8860"  remote="aokp"  revision="jellybean"   />
+  <project path="frameworks/base" name="zyr3x/frameworks_base" revision="jb"  remote="aokp" />  
+  <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" revision="jellybean"  remote="aokp" />
 </manifest>
