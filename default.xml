@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="AOKP/frameworks_av" />
+  <remove-project name="AOKP/frameworks_native" />
+  <remove-project name="android_hardware_libhardware_legacy" />
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_gps" />
+  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_libhardware" />
+  <remove-project name="android_hardware_msm7k" />
+  <remove-project name="platform/external/srec" />
+  <project path="hardware/msm7k" name="ShenduOS/android_hardware_msm7k" remote="aokp"  revision="jellybean"/>
   <project path="local_manifest" name="zyr3x/platform_manifest_jb"  remote="aokp"   revision="jb-u8860-local"/>
   <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common"  remote="aokp"  revision="jellybean" />
   <project path="device/huawei/u8860" name="zyr3x/android_device_huawei_u8860"  remote="aokp"  revision="jellybean"   />
   <project path="frameworks/base" name="zyr3x/frameworks_base" revision="jb"  remote="aokp" />  
   <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" revision="jellybean"  remote="aokp" />
+  <project path="external/srec" name="ShenduOS/android_external_srec"  revision="jellybean"  remote="aokp"/>
+  <project path="hardware/libhardware_legacy" name="ShenduOS/android_hardware_libhardware_legacy"  remote="aokp"  revision="jellybean" />
+  <project path="hardware/qcom/audio" name="ShenduOS/android_hardware_qcom_audio"  remote="aokp"  revision="jellybean" />
+  <project path="hardware/qcom/display" name="ShenduOS/android_hardware_qcom_display"  remote="aokp"  revision="jellybean" />
+  <project path="hardware/qcom/gps" name="ShenduOS/android_hardware_qcom_gps" remote="aokp"  revision="jellybean"/>
+  <project path="hardware/qcom/media" name="ShenduOS/android_hardware_qcom_media" remote="aokp"  revision="jellybean"  />
+  <project path="frameworks/av" name="ShenduOS/android_frameworks_av" remote="aokp"  revision="jellybean" />
+  <project path="hardware/libhardware" name="ShenduOS/android_hardware_libhardware" remote="aokp"  revision="jellybean"/>
+  <project path="frameworks/native" name="ShenduOS/android_frameworks_native" remote="aokp"  revision="jellybean"/>
 </manifest>
