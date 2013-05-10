@@ -3,6 +3,7 @@
   <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_native" />
+  <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="android_hardware_libhardware_legacy" />
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_gps" />
