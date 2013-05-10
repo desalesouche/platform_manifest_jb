@@ -4,6 +4,7 @@
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="android_hardware_libhardware_legacy" />
   <remove-project name="android_hardware_qcom_audio" />
   <remove-project name="android_hardware_qcom_gps" />
@@ -17,6 +18,7 @@
   <project path="local_manifest" name="zyr3x/platform_manifest_jb"  remote="aokp"   revision="jb-u8860-local"/>
   <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common"  remote="aokp"  revision="jellybean" />
   <project path="vendor/aokp" name="AOKP-MEDIAPAD/vendor_aokp"  remote="aokp"  revision="jellybean"   />  
+  <project path="packages/apps/ROMControl" name="AOKP-MEDIAPAD/packages_apps_ROMControl"  revision="jb" />
   <project path="device/huawei/u8860" name="zyr3x/android_device_huawei_u8860"  remote="aokp"  revision="jellybean"   />
   <project path="frameworks/base" name="zyr3x/frameworks_base" revision="jb"  remote="aokp" />  
   <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" revision="jellybean"  remote="aokp" />
