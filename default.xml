@@ -9,11 +9,13 @@
   <remove-project name="android_hardware_qcom_media" />
   <remove-project name="android_hardware_qcom_display" />
   <remove-project name="android_hardware_libhardware" />
+  <remove-project name="device/generic/goldfish" />
   <remove-project name="android_hardware_msm7k" />
   <remove-project name="platform/external/srec" />
   <project path="hardware/msm7k" name="ShenduOS/android_hardware_msm7k" remote="aokp"  revision="jellybean"/>
   <project path="local_manifest" name="zyr3x/platform_manifest_jb"  remote="aokp"   revision="jb-u8860-local"/>
   <project path="device/huawei/msm7x30-common" name="ShenduOS/android_device_huawei_msm7x30-common"  remote="aokp"  revision="jellybean" />
+  <project path="vendor/aokp" name="AOKP-MEDIAPAD/vendor_aokp"  remote="aokp"  revision="jellybean"   />  
   <project path="device/huawei/u8860" name="zyr3x/android_device_huawei_u8860"  remote="aokp"  revision="jellybean"   />
   <project path="frameworks/base" name="zyr3x/frameworks_base" revision="jb"  remote="aokp" />  
   <project path="vendor/huawei" name="ShenduOS/android_vendor_huawei" revision="jellybean"  remote="aokp" />
@@ -26,4 +28,5 @@
   <project path="frameworks/av" name="ShenduOS/android_frameworks_av" remote="aokp"  revision="jellybean" />
   <project path="hardware/libhardware" name="ShenduOS/android_hardware_libhardware" remote="aokp"  revision="jellybean"/>
   <project path="frameworks/native" name="ShenduOS/android_frameworks_native" remote="aokp"  revision="jellybean"/>
+  <project path="device/generic/goldfish" name="ShenduOS/android_device_generic_goldfish" remote="aokp"  revision="jellybean" />
 </manifest>
